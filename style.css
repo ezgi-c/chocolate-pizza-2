@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    display: block;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#x {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    
+}
+#logo {
+    display: flex;
+    margin-right: 5px;
+    margin-top: 7px;
+    padding-top: 20px;
+}
+#icon {
+    padding-top: 30px;
+}
+div > div#htext > h1 {
+    font-family: 'Cookie', cursive;
+    font-style: italic;
+    font-size:40px;
+    margin-bottom: -5px;
+    padding-top: 20px;
+}
+div > div#htext > h6 {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    gap: 1rem;
+}
+#space-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#print {
+    display: flex;
+    padding-top: 34px;
+}
+#strikethrough {
+    text-decoration: line-through;
+}
+main > img {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+main > p {
+    text-indent: 20px;
+    line-height: 20px;
+}
+main > #listcontainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    background-image:url("img/list-bg.png"); 
+    width: 92%;
+    height: 19rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: space-evenly;
+}
+main > div > #list1 > ul {
+    list-style: none;
+    line-height: 1.5rem;
+    margin-top: 5rem;
+}
+main > div > #list2 > ul {
+    list-style: none;
+    line-height: 1.5rem;
+    margin-top: 5rem;
+}
+#pre-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#button {
+    display: flex;
+    background-color: #BC0758;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#bio {
+    float: left;
+    
+}

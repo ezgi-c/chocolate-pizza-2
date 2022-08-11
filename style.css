@@ -9,6 +9,8 @@ html {
     width: 60vw;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5em;
+    margin-top: 3em;
     
 }
 header {
@@ -56,6 +58,10 @@ main {
     display: flex;
     padding-top: 34px;
 }
+
+#print > p {
+    font-size: 14px;
+}
 #strikethrough {
     text-decoration: line-through;
 }
@@ -75,7 +81,7 @@ main > #listcontainer {
     margin-right: auto;
     margin-top: 3rem;
     background-image:url("img/list-bg.png"); 
-    width: 92%;
+    width: 100%;
     height: 19rem;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -95,7 +101,7 @@ main > div > #list2 > ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
+    gap:1em;
 }
 #button {
     display: flex;
@@ -104,7 +110,18 @@ main > div > #list2 > ul {
     border-radius: 10px;
     border: none;
 }
+
 #bio {
-    float: left;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-top:3em;
+    text-align: center;
+}
+
+#footer-logo {
+    margin-bottom: 3em;
 }

@@ -13,6 +13,12 @@ html {
     margin-top: 3em;
     
 }
+#repeat {
+    background-repeat: repeat-x repeat-y;
+    background-image: url("img/hr-img.png");
+    width:60vw;
+    margin-top: 20px;
+}
 header {
     display: flex;
     justify-content: space-between;

@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,108 +8,114 @@
 }
 html {
     display: block;
-    width: 60vw;
+    width: 901px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5em;
-    margin-top: 3em;
+    margin-top: 2em;
     
 }
 #repeat {
     background-repeat: repeat-x repeat-y;
     background-image: url("img/hr-img.png");
-    width:60vw;
+    width:901px;
     margin-top: 20px;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+ul {
+    list-style: none;
+    display: inline-block;
 }
-#x {
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    
+
+li {
+    display: inline-block;
 }
-#logo {
-    display: flex;
-    margin-right: 5px;
-    margin-top: 7px;
-    padding-top: 20px;
-}
+
 #icon {
-    padding-top: 30px;
+    float: right;
+    padding-top: .5em;
 }
-div > div#htext > h1 {
-    font-family: 'Cookie', cursive;
-    font-style: italic;
+
+header > ul {
+    vertical-align: top;
+}
+header > ul > li > h1 {
+    font-family: 'Yellowtail', cursive;
     font-size:40px;
-    margin-bottom: -5px;
-    padding-top: 20px;
+    line-height: 36px;
 }
-div > div#htext > h6 {
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+header > ul > li > h6 {
+font-family: 'Abel', sans-serif;
 color: grey;
 font-weight: 200;
-}
-
-div#name {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-#name > h5 {
-    color:grey;
-    font-weight: 200;
+text-indent: .5em;
+font-size: 12px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    max-width: 70vw;
-    gap: 1rem;
-}
-#space-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#print {
-    display: flex;
-    padding-top: 34px;
+    margin-top: 3em;
 }
 
-#print > p {
-    font-size: 14px;
+#title > li > h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 38px;
+    font-weight:bolder;
+    text-shadow: 0px 1px, 1px 0px, 1px 1px black;
 }
+
+#title > li > h5 {
+    font-family: 'Abel', sans-serif;
+    color: grey;
+    font-size: 13px;
+
+}
+#print {
+    padding-top: 50px;
+    float: right;
+    font-size: 13px;
+    font-family: 'Abel', sans-serif;
+    color: grey;
+}
+
 #strikethrough {
     text-decoration: line-through;
 }
+
 main > img {
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    display: block;
+    margin: 2rem auto;
 }
 main > p {
     text-indent: 20px;
-    line-height: 20px;
+    line-height: 24px;
+    color: gray;
+    font-size: 19.5px;
 }
-main > #listcontainer {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem;
+#ingredients {
+    width:100%;
+    columns: 2;
+    padding-left: 4em;
+    padding-right: 3em;
+    padding-top: 2em;
+    margin-top: 1.5em;
     background-image:url("img/list-bg.png"); 
-    width: 100%;
     height: 19rem;
     background-repeat: no-repeat;
     background-size: 100%;
-    justify-content: space-evenly;
+    line-height: 1.6em;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(105, 104, 104);
+    margin-bottom: 1em;
 }
+
+#ingredients > li {
+    display: block;
+}
+
 main > div > #list1 > ul {
     list-style: none;
-    line-height: 1.5rem;
     margin-top: 5rem;
 }
 main > div > #list2 > ul {
@@ -115,52 +123,58 @@ main > div > #list2 > ul {
     line-height: 1.5rem;
     margin-top: 5rem;
 }
+
 #pre-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:1em;
+    margin-top: 2em;
+    color: gray;
 }
 
-#vanessa {
-    display: flex;
-    gap:1em;
+#pre-footer > ul > li:nth-child(2) {
+ vertical-align: top;
 }
-#bio {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
+#pre-footer > ul > li > img {
+    margin-right: .7em;
+}
+
+#pre-footer > ul > li > h3 {
+    font-size: 22px;
+}
+
+#pre-footer > ul > li > p {
+    font-size: 19px;
+    width: 600px;
+}
+
+#button {
+    float:right;
+}
+
+button {
+    background-color: #D8613C;
+    padding: 15px 20px;
+    border: none;
+    color:white;
 }
 
 h3 {
     margin-bottom: 10px;
 }
 
-#button {
-    display: flex;
-    background-color: #BC7058;
-    padding: 10px;
-    border: none;
-    color:white;
-}
-
 footer {
     margin-top:3em;
     text-align: center;
-    border-top: grey solid 1px;
+    border-top: rgb(212, 210, 210) solid .5px;
     padding-top: 3em;
-    color:grey;
-}
-
-#footer-logo {
-    display: flex;
-    justify-content: center;
+    color:rgb(176, 174, 174);
 }
 
 #footer-logo img {
-    margin-top: 1.5em;
     position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
     border:white solid 10px;
-
+    margin-top: 3em;
 }
